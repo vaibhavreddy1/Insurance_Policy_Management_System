@@ -1,10 +1,7 @@
 # HDFC Life — Insurance Policy Management System (IPMS)
 
 > 🚀 **Live Demo:** [https://insurance-policy-management-system-sooty.vercel.app](https://insurance-policy-management-system-sooty.vercel.app)
->
-> **Demo Credentials:**
-> - **Admin:** `admin@hdfclife.com` / `Admin@123456`
-> - **Agent:** Create one via the Admin dashboard
+
 
 ## Objective
 
