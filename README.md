@@ -17,8 +17,8 @@ The objective of this project is to design and develop a web-based Insurance Pol
 | Database | MongoDB + Mongoose ODM |
 | Auth | JWT (15-min expiry) + HttpOnly Cookies |
 | Validation | express-validator (field-level errors) |
-| Testing | Jest + Supertest + mongodb-memory-server |
-| Security | Helmet · CORS · Rate Limiting · bcryptjs |
+| Testing | Jest  |
+| Security | CORS  · bcryptjs |
 
 ## Project Structure
 
