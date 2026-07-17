@@ -1,5 +1,11 @@
 # HDFC Life — Insurance Policy Management System (IPMS)
 
+> 🚀 **Live Demo:** [https://insurance-policy-management-system-sooty.vercel.app](https://insurance-policy-management-system-sooty.vercel.app)
+>
+> **Demo Credentials:**
+> - **Admin:** `admin@hdfclife.com` / `Admin@123456`
+> - **Agent:** Create one via the Admin dashboard
+
 ## Objective
 
 The objective of this project is to design and develop a web-based Insurance Policy Management System that simulates a real-world insurance onboarding and policy issuance workflow. The application provides separate functionalities for Admin and Agent users, ensuring secure access and role-based operations. The system enables Agents to manage the complete customer lifecycle, including customer registration, policy issuance, and policy management, while Admins are responsible for managing Agent accounts and monitoring the overall system. The application focuses on implementing clean architecture, secure authentication, data validation, and proper access control.
