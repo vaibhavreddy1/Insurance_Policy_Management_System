@@ -142,7 +142,7 @@ const AgentProfilePage: React.FC = () => {
                     )}
                     <div className="flex items-center gap-1.5">
                       <Calendar size={14} />
-                      Joined {new Date(agent.createdAt).toLocaleDateString()}
+                      Joined {agent.createdAt ? new Date(agent.createdAt).toLocaleDateString() : 'N/A'}
                     </div>
                   </div>
                 </div>

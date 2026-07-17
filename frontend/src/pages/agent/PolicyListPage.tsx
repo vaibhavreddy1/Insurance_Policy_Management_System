@@ -2,7 +2,7 @@ import React, { useEffect, useState, useCallback } from 'react';
 import DashboardLayout from '../../components/DashboardLayout';
 import api from '../../lib/api';
 import { useNavigate } from 'react-router-dom';
-import { FileText, Plus, ChevronLeft, ChevronRight } from 'lucide-react';
+import { Plus, ChevronLeft, ChevronRight } from 'lucide-react';
 import toast from 'react-hot-toast';
 
 const statusColors: Record<string, string> = {
