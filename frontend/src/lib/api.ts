@@ -14,8 +14,9 @@ api.interceptors.response.use(
   (response) => response,
   (error) => {
     if (error.response?.status === 401) {
-      // Redirect to login on session expiry, but only if not already there
-      if (window.location.pathname !== '/login') {
+      // Don't redirect for session-check calls — let AuthContext handle those
+      const url = error.config?.url || '';
+      if (!url.includes('/auth/me') && window.location.pathname !== '/login') {
         window.location.href = '/login';
       }
     }
