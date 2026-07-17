@@ -23,14 +23,14 @@ The objective of this project is to design and develop a web-based Insurance Pol
 hdfc-assig/
 ├── backend/
 │   ├── src/
-│   │   ├── app.js                  # Express app factory
-│   │   ├── server.js               # Entry point
+│   │   ├── app.js                  
+│   │   ├── server.js               
 │   │   ├── config/
-│   │   │   └── database.js         # MongoDB connection
+│   │   │   └── database.js         
 │   │   ├── models/
-│   │   │   ├── user.model.js       # Admin + Agent schema
-│   │   │   ├── customer.model.js   # Customer + PII schema
-│   │   │   └── policy.model.js     # Policy schema (immutable agentId)
+│   │   │   ├── user.model.js      
+│   │   │   ├── customer.model.js   
+│   │   │   └── policy.model.js     
 │   │   ├── controllers/
 │   │   │   ├── auth.controller.js
 │   │   │   ├── admin.controller.js
@@ -42,42 +42,42 @@ hdfc-assig/
 │   │   │   ├── customer.routes.js
 │   │   │   └── policy.routes.js
 │   │   ├── middleware/
-│   │   │   ├── auth.middleware.js   # protect + authorize()
-│   │   │   ├── validate.middleware.js  # express-validator chains
-│   │   │   └── error.middleware.js     # AppError + errorHandler
+│   │   │   ├── auth.middleware.js  
+│   │   │   ├── validate.middleware.js  
+│   │   │   └── error.middleware.js     
 │   │   ├── utils/
-│   │   │   ├── jwt.util.js         # signToken + cookie helpers
-│   │   │   ├── piiMasker.js        # Aadhaar, PAN, Mobile masking
-│   │   │   └── seeder.js           # Admin seed script
+│   │   │   ├── jwt.util.js         
+│   │   │   ├── piiMasker.js        
+│   │   │   └── seeder.js           
 │   │   └── tests/
-│   │       ├── setup.js            # In-memory MongoDB setup
-│   │       ├── piiMasker.test.js   # PII unit tests
-│   │       ├── auth.test.js        # Auth API tests
-│   │       ├── admin.test.js       # Admin API tests
-│   │       └── customer.policy.test.js  # Business rules tests
+│   │       ├── setup.js            
+│   │       ├── piiMasker.test.js   
+│   │       ├── auth.test.js       
+│   │       ├── admin.test.js       
+│   │       └── customer.policy.test.js  
 │   ├── .env.example
-│   ├── .env                        # (git-ignored)
+│   ├── .env                       
 │   └── package.json
 │
 └── frontend/
     ├── src/
-    │   ├── App.tsx                 # Router + protected routes
+    │   ├── App.tsx                 
     │   ├── main.tsx
-    │   ├── index.css               # Design system tokens + components
+    │   ├── index.css               
     │   ├── context/
-    │   │   └── AuthContext.tsx     # Auth state + session check
+    │   │   └── AuthContext.tsx     
     │   ├── lib/
-    │   │   └── api.ts              # Axios instance + interceptors
+    │   │   └── api.ts             
     │   ├── types/
-    │   │   └── index.ts            # TypeScript interfaces
+    │   │   └── index.ts           
     │   ├── components/
-    │   │   ├── ProtectedRoute.tsx  # Role-based route guard
-    │   │   └── DashboardLayout.tsx # Sidebar + topbar shell
+    │   │   ├── ProtectedRoute.tsx  
+    │   │   └── DashboardLayout.tsx 
     │   └── pages/
     │       ├── LoginPage.tsx
     │       ├── admin/
     │       │   ├── AdminDashboard.tsx
-    │       │   ├── AgentListPage.tsx   # Paginated + filterable
+    │       │   ├── AgentListPage.tsx   
     │       │   └── CreateAgentPage.tsx
     │       └── agent/
     │           ├── AgentDashboard.tsx
